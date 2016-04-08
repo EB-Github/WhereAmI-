@@ -1,0 +1,10 @@
+  <br>
+  <h1>Enter a ZIP Code</h1>
+  <md-input-container>
+    <label>ZIP Code</label>
+    <input name="ZIP" ng-model="zipcode" ng-pattern="onlyZIP" required>
+  </md-input-container>
+  <md-content>
+    {{zipcode}}
+    <ui-gmap-google-map center='map.center' zoom='map.zoom'></ui-gmap-google-map>
+  </md-content>

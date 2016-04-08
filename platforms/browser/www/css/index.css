@@ -1,0 +1,7 @@
+.app a{
+  text-decoration: none !important;
+  height:100%;
+  width:100%;
+}
+
+.angular-google-map-container { height: 400px; }
